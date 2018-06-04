@@ -122,7 +122,7 @@
              (def flag (reduce + restval ))
              ) 
          )
-  (println "\n" input ": $" flag) 
+  (println "\n" input ": $" (format "%.2f" flag)) 
   (println "\n*** End of Task ***\n")
        
     )
